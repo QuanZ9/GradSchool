@@ -1,0 +1,697 @@
+
+%% bare_conf.tex
+%% V1.4b
+%% 2015/08/26
+%% by Michael Shell
+%% See:
+%% http://www.michaelshell.org/
+%% for current contact information.
+%%
+%% This is a skeleton file demonstrating the use of IEEEtran.cls
+%% (requires IEEEtran.cls version 1.8b or later) with an IEEE
+%% conference paper.
+%%
+%% Support sites:
+%% http://www.michaelshell.org/tex/ieeetran/
+%% http://www.ctan.org/pkg/ieeetran
+%% and
+%% http://www.ieee.org/
+
+%%**********************************************************
+%% Legal Notice:
+%% This code is offered as-is without any warranty either expressed or
+%% implied; without even the implied warranty of MERCHANTABILITY or
+%% FITNESS FOR A PARTICULAR PURPOSE! 
+%% User assumes all risk.
+%% In no event shall the IEEE or any contributor to this code be liable for
+%% any damages or losses, including, but not limited to, incidental,
+%% consequential, or any other damages, resulting from the use or misuse
+%% of any information contained here.
+%%
+%% All comments are the opinions of their respective authors and are not
+%% necessarily endorsed by the IEEE.
+%%
+%% This work is distributed under the LaTeX Project Public License (LPPL)
+%% ( http://www.latex-project.org/ ) version 1.3, and may be freely used,
+%% distributed and modified. A copy of the LPPL, version 1.3, is included
+%% in the base LaTeX documentation of all distributions of LaTeX released
+%% 2003/12/01 or later.
+%% Retain all contribution notices and credits.
+%% ** Modified files should be clearly indicated as such, including  **
+%% ** renaming them and changing author support contact information. **
+%%***********************************************************
+
+
+% *** Authors should verify (and, if needed, correct) their LaTeX system  ***
+% *** with the testflow diagnostic prior to trusting their LaTeX platform ***
+% *** with production work. The IEEE's font choices and paper sizes can   ***
+% *** trigger bugs that do not appear when using other class files.       ***                          ***
+% The testflow support page is at:
+% http://www.michaelshell.org/tex/testflow/
+
+
+
+\documentclass[11pt, conference]{IEEEtran}
+% Some Computer Society conferences also require the compsoc mode option,
+% but others use the standard conference format.
+%
+% If IEEEtran.cls has not been installed into the LaTeX system files,
+% manually specify the path to it like:
+% \documentclass[conference]{../sty/IEEEtran}
+
+
+
+
+
+% Some very useful LaTeX packages include:
+% (uncomment the ones you want to load)
+
+
+% *** MISC UTILITY PACKAGES ***
+%
+%\usepackage{ifpdf}
+% Heiko Oberdiek's ifpdf.sty is very useful if you need conditional
+% compilation based on whether the output is pdf or dvi.
+% usage:
+% \ifpdf
+%   % pdf code
+% \else
+%   % dvi code
+% \fi
+% The latest version of ifpdf.sty can be obtained from:
+% http://www.ctan.org/pkg/ifpdf
+% Also, note that IEEEtran.cls V1.7 and later provides a builtin
+% \ifCLASSINFOpdf conditional that works the same way.
+% When switching from latex to pdflatex and vice-versa, the compiler may
+% have to be run twice to clear warning/error messages.
+
+
+
+
+
+
+% *** CITATION PACKAGES ***
+%
+%\usepackage{cite}
+% cite.sty was written by Donald Arseneau
+% V1.6 and later of IEEEtran pre-defines the format of the cite.sty package
+% \cite{} output to follow that of the IEEE. Loading the cite package will
+% result in citation numbers being automatically sorted and properly
+% "compressed/ranged". e.g., [1], [9], [2], [7], [5], [6] without using
+% cite.sty will become [1], [2], [5]--[7], [9] using cite.sty. cite.sty's
+% \cite will automatically add leading space, if needed. Use cite.sty's
+% noadjust option (cite.sty V3.8 and later) if you want to turn this off
+% such as if a citation ever needs to be enclosed in parenthesis.
+% cite.sty is already installed on most LaTeX systems. Be sure and use
+% version 5.0 (2009-03-20) and later if using hyperref.sty.
+% The latest version can be obtained at:
+% http://www.ctan.org/pkg/cite
+% The documentation is contained in the cite.sty file itself.
+
+
+
+
+
+% *** GRAPHICS RELATED PACKAGES ***
+%
+\ifCLASSINFOpdf
+   \usepackage[pdftex]{graphicx}
+  % declare the path(s) where your graphic files are
+   \graphicspath{{../pdf/}{../jpeg/}}
+  % and their extensions so you won't have to specify these with
+  % every instance of \includegraphics
+   \DeclareGraphicsExtensions{.pdf,.jpeg,.png}
+\else
+  % or other class option (dvipsone, dvipdf, if not using dvips). graphicx
+  % will default to the driver specified in the system graphics.cfg if no
+  % driver is specified.
+   \usepackage[dvips]{graphicx}
+  % declare the path(s) where your graphic files are
+   \graphicspath{{../eps/}}
+  % and their extensions so you won't have to specify these with
+  % every instance of \includegraphics
+   \DeclareGraphicsExtensions{.eps}
+\fi
+% graphicx was written by David Carlisle and Sebastian Rahtz. It is
+% required if you want graphics, photos, etc. graphicx.sty is already
+% installed on most LaTeX systems. The latest version and documentation
+% can be obtained at: 
+% http://www.ctan.org/pkg/graphicx
+% Another good source of documentation is "Using Imported Graphics in
+% LaTeX2e" by Keith Reckdahl which can be found at:
+% http://www.ctan.org/pkg/epslatex
+%
+% latex, and pdflatex in dvi mode, support graphics in encapsulated
+% postscript (.eps) format. pdflatex in pdf mode supports graphics
+% in .pdf, .jpeg, .png and .mps (metapost) formats. Users should ensure
+% that all non-photo figures use a vector format (.eps, .pdf, .mps) and
+% not a bitmapped formats (.jpeg, .png). The IEEE frowns on bitmapped formats
+% which can result in "jaggedy"/blurry rendering of lines and letters as
+% well as large increases in file sizes.
+%
+% You can find documentation about the pdfTeX application at:
+% http://www.tug.org/applications/pdftex
+
+
+
+
+
+% *** MATH PACKAGES ***
+%
+%\usepackage{amsmath}
+% A popular package from the American Mathematical Society that provides
+% many useful and powerful commands for dealing with mathematics.
+%
+% Note that the amsmath package sets \interdisplaylinepenalty to 10000
+% thus preventing page breaks from occurring within multiline equations. Use:
+%\interdisplaylinepenalty=2500
+% after loading amsmath to restore such page breaks as IEEEtran.cls normally
+% does. amsmath.sty is already installed on most LaTeX systems. The latest
+% version and documentation can be obtained at:
+% http://www.ctan.org/pkg/amsmath
+
+
+
+
+
+% *** SPECIALIZED LIST PACKAGES ***
+%
+%\usepackage{algorithmic}
+% algorithmic.sty was written by Peter Williams and Rogerio Brito.
+% This package provides an algorithmic environment fo describing algorithms.
+% You can use the algorithmic environment in-text or within a figure
+% environment to provide for a floating algorithm. Do NOT use the algorithm
+% floating environment provided by algorithm.sty (by the same authors) or
+% algorithm2e.sty (by Christophe Fiorio) as the IEEE does not use dedicated
+% algorithm float types and packages that provide these will not provide
+% correct IEEE style captions. The latest version and documentation of
+% algorithmic.sty can be obtained at:
+% http://www.ctan.org/pkg/algorithms
+% Also of interest may be the (relatively newer and more customizable)
+% algorithmicx.sty package by Szasz Janos:
+% http://www.ctan.org/pkg/algorithmicx
+
+
+
+
+% *** ALIGNMENT PACKAGES ***
+%
+%\usepackage{array}
+% Frank Mittelbach's and David Carlisle's array.sty patches and improves
+% the standard LaTeX2e array and tabular environments to provide better
+% appearance and additional user controls. As the default LaTeX2e table
+% generation code is lacking to the point of almost being broken with
+% respect to the quality of the end results, all users are strongly
+% advised to use an enhanced (at the very least that provided by array.sty)
+% set of table tools. array.sty is already installed on most systems. The
+% latest version and documentation can be obtained at:
+% http://www.ctan.org/pkg/array
+
+
+% IEEEtran contains the IEEEeqnarray family of commands that can be used to
+% generate multiline equations as well as matrices, tables, etc., of high
+% quality.
+
+
+
+
+% *** SUBFIGURE PACKAGES ***
+%\ifCLASSOPTIONcompsoc
+%  \usepackage[caption=false,font=normalsize,labelfont=sf,textfont=sf]{subfig}
+%\else
+%  \usepackage[caption=false,font=footnotesize]{subfig}
+%\fi
+% subfig.sty, written by Steven Douglas Cochran, is the modern replacement
+% for subfigure.sty, the latter of which is no longer maintained and is
+% incompatible with some LaTeX packages including fixltx2e. However,
+% subfig.sty requires and automatically loads Axel Sommerfeldt's caption.sty
+% which will override IEEEtran.cls' handling of captions and this will result
+% in non-IEEE style figure/table captions. To prevent this problem, be sure
+% and invoke subfig.sty's "caption=false" package option (available since
+% subfig.sty version 1.3, 2005/06/28) as this is will preserve IEEEtran.cls
+% handling of captions.
+% Note that the Computer Society format requires a larger sans serif font
+% than the serif footnote size font used in traditional IEEE formatting
+% and thus the need to invoke different subfig.sty package options depending
+% on whether compsoc mode has been enabled.
+%
+% The latest version and documentation of subfig.sty can be obtained at:
+% http://www.ctan.org/pkg/subfig
+
+
+
+
+% *** FLOAT PACKAGES ***
+%
+%\usepackage{fixltx2e}
+% fixltx2e, the successor to the earlier fix2col.sty, was written by
+% Frank Mittelbach and David Carlisle. This package corrects a few problems
+% in the LaTeX2e kernel, the most notable of which is that in current
+% LaTeX2e releases, the ordering of single and double column floats is not
+% guaranteed to be preserved. Thus, an unpatched LaTeX2e can allow a
+% single column figure to be placed prior to an earlier double column
+% figure.
+% Be aware that LaTeX2e kernels dated 2015 and later have fixltx2e.sty's
+% corrections already built into the system in which case a warning will
+% be issued if an attempt is made to load fixltx2e.sty as it is no longer
+% needed.
+% The latest version and documentation can be found at:
+% http://www.ctan.org/pkg/fixltx2e
+
+
+%\usepackage{stfloats}
+% stfloats.sty was written by Sigitas Tolusis. This package gives LaTeX2e
+% the ability to do double column floats at the bottom of the page as well
+% as the top. (e.g., "\begin{figure*}[!b]" is not normally possible in
+% LaTeX2e). It also provides a command:
+%\fnbelowfloat
+% to enable the placement of footnotes below bottom floats (the standard
+% LaTeX2e kernel puts them above bottom floats). This is an invasive package
+% which rewrites many portions of the LaTeX2e float routines. It may not work
+% with other packages that modify the LaTeX2e float routines. The latest
+% version and documentation can be obtained at:
+% http://www.ctan.org/pkg/stfloats
+% Do not use the stfloats baselinefloat ability as the IEEE does not allow
+% \baselineskip to stretch. Authors submitting work to the IEEE should note
+% that the IEEE rarely uses double column equations and that authors should try
+% to avoid such use. Do not be tempted to use the cuted.sty or midfloat.sty
+% packages (also by Sigitas Tolusis) as the IEEE does not format its papers in
+% such ways.
+% Do not attempt to use stfloats with fixltx2e as they are incompatible.
+% Instead, use Morten Hogholm'a dblfloatfix which combines the features
+% of both fixltx2e and stfloats:
+%
+% \usepackage{dblfloatfix}
+% The latest version can be found at:
+% http://www.ctan.org/pkg/dblfloatfix
+
+
+
+
+% *** PDF, URL AND HYPERLINK PACKAGES ***
+%
+%\usepackage{url}
+% url.sty was written by Donald Arseneau. It provides better support for
+% handling and breaking URLs. url.sty is already installed on most LaTeX
+% systems. The latest version and documentation can be obtained at:
+% http://www.ctan.org/pkg/url
+% Basically, \url{my_url_here}.
+
+
+
+
+% *** Do not adjust lengths that control margins, column widths, etc. ***
+% *** Do not use packages that alter fonts (such as pslatex).         ***
+% There should be no need to do such things with IEEEtran.cls V1.6 and later.
+% (Unless specifically asked to do so by the journal or conference you plan
+% to submit to, of course. )
+
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+
+\begin{document}
+%
+% paper title
+% Titles are generally capitalized except for words such as a, an, and, as,
+% at, but, by, for, in, nor, of, on, or, the, to and up, which are usually
+% not capitalized unless they are the first or last word of the title.
+% Linebreaks \\ can be used within to get better formatting as desired.
+% Do not put math or special symbols in the title.
+\title{\huge CAMP and Bootstrap \\ {\large ISYE/MATH 6783 - Assignment4}}
+
+
+% author names and affiliations
+% use a multiple column layout for up to three different
+% affiliations
+\author{\IEEEauthorblockN{Quan Zhou}
+\IEEEauthorblockA{Quantitative and Computational Finance \\ 
+Georgia Institute of Technology \\
+Email: qzhou81@gatech.edu \\}}
+
+% conference papers do not typically use \thanks and this command
+% is locked out in conference mode. If really needed, such as for
+% the acknowledgment of grants, issue a \IEEEoverridecommandlockouts
+% after \documentclass
+
+% for over three affiliations, or if they all won't fit within the width
+% of the page, use this alternative format:
+
+% use for special paper notices
+%\IEEEspecialpapernotice{(Invited Paper)}
+
+
+
+
+% make the title area
+\maketitle
+
+% As a general rule, do not put math, special symbols or citations
+% in the abstract
+\begin{abstract}
+CAPM is a widely used single factor pricing model which describes the relationship between individual assets and the market. In this report, CAPM is validated using the log return of ten stocks, market return and risk free rate. Nine out of ten stocks support CAPM. To improve accuracy, bootstrap is performed. With bootstrap, the regression results of all ten stocks indicate that the CAPM model is valid. 
+\end{abstract}
+
+% no keywords
+
+
+% For peer review papers, you can put extra information on the cover
+% page as needed:
+% \ifCLASSOPTIONpeerreview
+% \begin{center} \bfseries EDICS Category: 3-BBND \end{center}
+% \fi
+%
+% For peerreview papers, this IEEEtran command inserts a page break and
+% creates the second title. It will be ignored for other modes.
+\IEEEpeerreviewmaketitle
+
+
+
+\section{Introduction}
+% no \IEEEPARstart
+The stock market is extremely complex and unpredictable. But people never give up on find a universally applicable method to model stock prices. The Capital Asset Pricing Model (CAPM) is an empirical model that describes the relationship between price of an individual asset and market. The CAPM is popular due to its simplicity and utility in a variety of situations. The model is formulated as below. 
+
+$$ R_{asset} = R_f + \beta*(R_{mkt} - R_f) +\alpha + \epsilon $$
+
+CAPM states that if all investors follow certain assumptions, $\alpha$ should be zero. The assumptions are: 
+
+1. Aim to maximize economic utilities (Asset quantities are given and fixed).
+
+2. Are rational and risk-averse.
+
+3. Are broadly diversified across a range of investments.
+
+4. Are price takers, i.e. they cannot influence prices.
+
+5. Can lend and borrow unlimited amounts under the risk free rate of interest.
+
+6. Trade without transaction or taxation costs.
+
+7. Deal with securities that are all highly divisible into small parcels (All assets are perfectly divisible and liquid).
+
+8. Have homogeneous expectations.
+
+9. Assume all information is available at the same time to all investors.
+
+The rest of this report is organized as follows. Section 2 will introduce the test results of ten stocks on CAPM and the confidence intervals of coefficients. CAPM with bootstrap will be done in Section 3 followed by conclusions in Section 4.  
+
+
+% An example of a floating figure using the graphicx package.
+% Note that \label must occur AFTER (or within) \caption.
+% For figures, \caption should occur after the \includegraphics.
+% Note that IEEEtran v1.7 and later has special internal code that
+% is designed to preserve the operation of \label within \caption
+% even when the captionsoff option is in effect. However, because
+% of issues like this, it may be the safest practice to put all your
+% \label just after \caption rather than within \caption{}.
+%
+% Reminder: the "draftcls" or "draftclsnofoot", not "draft", class
+% option should be used if it is desired that the figures are to be
+% displayed while in draft mode.
+%
+%\begin{figure}[!t]
+%\centering
+%\includegraphics[width=2.5in]{myfigure}
+% where an .eps filename suffix will be assumed under latex, 
+% and a .pdf suffix will be assumed for pdflatex; or what has been declared
+% via \DeclareGraphicsExtensions.
+%\caption{Simulation results for the network.}
+%\label{fig_sim}
+%\end{figure}
+
+% Note that the IEEE typically puts floats only at the top, even when this
+% results in a large percentage of a column being occupied by floats.
+
+
+% An example of a double column floating figure using two subfigures.
+% (The subfig.sty package must be loaded for this to work.)
+% The subfigure \label commands are set within each subfloat command,
+% and the \label for the overall figure must come after \caption.
+% \hfil is used as a separator to get equal spacing.
+% Watch out that the combined width of all the subfigures on a 
+% line do not exceed the text width or a line break will occur.
+%
+%\begin{figure*}[!t]
+%\centering
+%\subfloat[Case I]{\includegraphics[width=2.5in]{box}%
+%\label{fig_first_case}}
+%\hfil
+%\subfloat[Case II]{\includegraphics[width=2.5in]{box}%
+%\label{fig_second_case}}
+%\caption{Simulation results for the network.}
+%\label{fig_sim}
+%\end{figure*}
+%
+% Note that often IEEE papers with subfigures do not employ subfigure
+% captions (using the optional argument to \subfloat[]), but instead will
+% reference/describe all of them (a), (b), etc., within the main caption.
+% Be aware that for subfig.sty to generate the (a), (b), etc., subfigure
+% labels, the optional argument to \subfloat must be present. If a
+% subcaption is not desired, just leave its contents blank,
+% e.g., \subfloat[].
+
+
+% Note that the IEEE does not put floats in the very first column
+% - or typically anywhere on the first page for that matter. Also,
+% in-text middle ("here") positioning is typically not used, but it
+% is allowed and encouraged for Computer Society conferences (but
+% not Computer Society journals). Most IEEE journals/conferences use
+% top floats exclusively. 
+% Note that, LaTeX2e, unlike IEEE journals/conferences, places
+% footnotes above bottom floats. This can be corrected via the
+% \fnbelowfloat command of the stfloats package.
+
+
+\section{Validation of CAPM}
+\subsection{Data Manipulation}
+Two datasets are given.  One contains monthly returns of the S\&P500 and the rates of the 3-month U. S. Treasury bill from January 1994 to December 2006. The other contains the monthly log returns of ten stocks. And the excess return is defined as below. 
+
+$$ excess\_return = stock\_return - risk\_free\_rate $$
+
+where the risk free rate is approximated by the rates of 3-month treasury bills. Also, since the units and time of these rates differs, all data is transformed in to monthly log returns before factor analysis is performed. 
+
+\subsection{Linear regression}
+To fit the CAPM model, linear regression is performed. By estimating the coefficients of $stock return \sim market return$, the CAPM model can be validated if the intercept term is zero. Besides coefficients, the 95\% confidence intervals of alpha and beta are also calculated. The 95\% confidence interval means the probability that a random sample falls into this range is 0.95. 
+
+The result of linear regressions for each stock is shown in Table \ref{tab1}.
+
+\begin{table}[!t]
+\centering
+\caption{CAPM alpha and beta}
+\label{tab1}
+\begin{tabular}{llll}
+\hline
+Regression & Alpha   & Beta   & Beta w/o intercept \\
+\hline
+AAPL       & 0.004   & 1.3751 & 1.3723             \\
+ADBE       & 0.0049  & 1.5248 & 1.5215             \\
+ADP        & 0.001   & 0.8418 & 0.8411             \\
+AMD        & -0.0003 & 2.313  & 2.3132             \\
+DELL       & 0.0091  & 1.6636 & 1.6573             \\
+GTW        & -0.0051 & 2.2244 & 2.2279             \\
+HP         & 0.0021  & 0.8705 & 0.8691             \\
+IBM        & 0.0028  & 1.3397 & 1.3378             \\
+MSFT       & 0.0045  & 1.4489 & 1.4459             \\
+ORCL       & 0.0041  & 1.5621 & 1.5593            \\
+\hline
+\end{tabular}
+\end{table}
+
+As shown in the table, all $\alpha$ are small and the estimated betas with\textbackslash without alpha are slightly different.  
+
+The confidence intervals of $\alpha$ and $\beta$ are shown in Table \ref{tab2}. 
+
+\begin{table}[!t]
+\centering
+\caption{95\% Confidence Intervals}
+\label{tab2}
+\begin{tabular}{lll}
+\hline
+Regression & 95\% CI of Alpha  & 95\% CI of Beta  \\
+\hline
+AAPL       & (-0.0059, 0.0140) & (0.8185, 1.9317) \\
+ADBE       & (-0.0048, 0.0145) & (0.9865, 2.0632) \\
+ADP        & (-0.0028, 0.0047) & (0.6343, 1.0493) \\
+AMD        & (-0.0120, 0.0114) & (1.6617, 2.9643) \\
+DELL       & (0.001, 0.0172)   & (1.211, 2.1161)  \\
+GTW        & (-0.0163, 0.0060) & (1.6052, 2.8436) \\
+HP         & (-0.0051, 0.0093) & (0.4690, 1.2720) \\
+IBM        & (-0.0019, 0.0076) & (1.0753, 1.6041) \\
+MSFT       & (-0.0013, 0.0103) & (1.1261, 1.7718) \\
+ORCL       & (-0.0046, 0.0129) & (1.0733, 2.0509) \\
+\hline
+\end{tabular}
+\end{table}
+
+The confidence intervals of $\alpha$ containing zero indicates that there is a high possibility that $\alpha$ is equal to zero. This is identical to the p values of linear regression which means the hypythesis $H_0: \alpha = 0$ holds, indicating that CAPM is valid. 
+
+\section{CAPM with Bootstrap}
+Bootstrap is a sampling technique that helps reduce estimation error by randomly picking sample from the original dataset with replacement. Then run regression on each sample dataset and take the mean of coefficients. 
+
+The result of CAPM with bootstrap is shown in Table \ref{tab3}
+
+\begin{table}[!t]
+\centering
+\caption{CAPM alpha and beta with bootstrap}
+\label{tab3}
+\begin{tabular}{lllll}
+\hline
+Bootstrap & Alpha   & Std(Alpha) & Beta   & Std(Beta) \\
+\hline
+AAPL      & 0.0037  & 0.0052     & 1.3765 & 0.3141    \\
+ADBE      & 0.0048  & 0.0047     & 1.5311 & 0.2622    \\
+ADP       & 0.001   & 0.0018     & 0.8438 & 0.1226    \\
+AMD       & -0.0003 & 0.0058     & 2.3062 & 0.3692    \\
+DELL      & 0.0091  & 0.0042     & 1.6577 & 0.2575    \\
+GTW       & -0.005  & 0.0055     & 2.266  & 0.4301    \\
+HP        & 0.0019  & 0.0035     & 0.8683 & 0.1856    \\
+IBM       & 0.0029  & 0.0024     & 1.34   & 0.1439    \\
+MSFT      & 0.0045  & 0.0029     & 1.4621 & 0.1691    \\
+ORCL      & 0.004   & 0.0044     & 1.5532 & 0.2673  \\
+\hline 
+\end{tabular}
+\end{table}
+
+The result looks similar compared to the coefficients without bootstrap. However, as shown in Table \ref{tab4}, the 99\% confidence intervals indicate that the hypothesis $H_0: \alpha = 0$ holds for all stocks. 
+
+\begin{table}[!t]
+\centering
+\caption{Confidence Intervals with Bootstrap}
+\label{tab4}
+\begin{tabular}{lll}
+\hline
+Bootstrap & 99\% CI of Alpha  & 99\% CI of Beta  \\
+\hline
+AAPL      & (-0.0095, 0.0177) & (0.6782, 2.3678) \\
+ADBE      & (-0.0075, 0.0164) & (0.8821, 2.1574) \\
+ADP       & (-0.0037, 0.0053) & (0.5349, 1.1722) \\
+AMD       & (-0.0150, 0.0141) & (1.3471, 3.3606) \\
+DELL      & (-0.0025, 0.0200) & (1.0626, 2.3475) \\
+GTW       & (-0.0190, 0.0081) & (1.3068, 3.5459) \\
+HP        & (-0.0066, 0.0114) & (0.3768, 1.3513) \\
+IBM       & (-0.0033, 0.0083) & (0.9803, 1.7085) \\
+MSFT      & (-0.0030, 0.0117) & (1.0525, 1.9340) \\
+ORCL      & (-0.0076, 0.0155) & (0.8210, 2.2215) \\
+\hline
+\end{tabular}
+\end{table}
+
+\section{Conclusion}
+Given the log return of ten stocks, market return and risk free rate, linear regression is perfermed to test CAPM. With bootstrap, result shows that $\alpha$ of all all stocks are zero which confirms the CAPM model is valid. 
+
+
+% conference papers do not normally have an appendix
+
+
+% use section* for acknowledgment
+%\section*{Acknowledgment}
+
+
+%The authors would like to thank...
+
+
+% trigger a \newpage just before the given reference
+% number - used to balance the columns on the last page
+% adjust value as needed - may need to be readjusted if
+% the document is modified later
+%\IEEEtriggeratref{8}
+% The "triggered" command can be changed if desired:
+%\IEEEtriggercmd{\enlargethispage{-5in}}
+
+% references section
+
+% can use a bibliography generated by BibTeX as a .bbl file
+% BibTeX documentation can be easily obtained at:
+% http://mirror.ctan.org/biblio/bibtex/contrib/doc/
+% The IEEEtran BibTeX style support page is at:
+% http://www.michaelshell.org/tex/ieeetran/bibtex/
+%\bibliographystyle{IEEEtran}
+% argument is your BibTeX string definitions and bibliography database(s)
+%\bibliography{IEEEabrv,../bib/paper}
+%
+% <OR> manually copy in the resultant .bbl file
+% set second argument of \begin to the number of references
+% (used to reserve space for the reference number labels box)
+
+\newpage
+\appendices
+
+\setcounter{figure}{0}
+\setcounter{table}{0}  
+
+\onecolumn
+\section{R code}
+
+\# compute market excess log return \\
+mkt $<-$ read.csv("m\_sp500ret\_3mtcm.txt", header = T, sep = '$\textbackslash$t', skip = 1)\\
+mkt\$log\_rf $<-$ log(mkt\$X3mTCM/100 + 1)/12\\
+mkt\$ex\_logret $<-$ log(mkt\$sp500+1) - mkt\$log\_rf\\
+mkt $<-$ subset(mkt, select=c("Date", "ex\_logret", "log\_rf"))\\
+
+\# compute stock excess log return\\
+stock $<-$ read.csv("m\_logret\_10stocks.txt", header = T, sep = '$\textbackslash$t')\\
+stock\$Date $<-$ NULL\\
+stock $<-$ na.omit(stock)\\
+stock\_ex $<-$ stock - mkt\$log\_rf\\
+
+alphas $<-$ c()\\
+betas $<-$ c()\\
+betas1 $<-$ c()\\
+ci $<-$ c()\\
+
+for (i in 1:10)\{\\
+	\# regression\\
+	linreg $<-$ lm(stock\_ex[,i] ~ mkt\$ex\_logret)\\
+	alphas $<-$ c(alphas, linreg\$coefficients[1])\\
+	betas $<-$ c(betas, linreg\$coefficients[2])	\\
+	\#print(summary(linreg))\\
+	
+	\# confidence interval\\
+	interval.beta $<-$ confint(linreg, level=0.95)\\
+	\#print (interval.beta)\\
+	ci $<-$ cbind(ci, interval.beta)\\
+
+	\# regression without intercept\\
+	linreg $<-$ lm(stock\_ex[,i] $\sim$ mkt\$ex\_logret - 1)\\
+	betas1 $<-$ c(betas1, linreg\$coefficients[1])\\
+\}\\
+
+\# bootstrap\\
+bootcapm$<-$function(x,y,B=500){\\
+	ind$<-$seq(1,length(x))\\
+	bootCoeff$<-$matrix(0,B,3)\\
+	for(b in 1:B)\{\\
+		bootind$<-$sample(ind,replace=T)\\
+		yb$<-$y[bootind]\\
+		xb$<-$x[bootind]\\
+		fitb$<-$lm(yb~xb)\\
+		bootCoeff[b,]$<-$c(fitb\$coef,mean(yb)/sd(yb))\\
+	\}\\
+	return(bootCoeff)\\
+\}\\
+
+alphas $<-$ c()\\
+betas $<-$ c()\\
+ci\_alpha $<-$ c()\\
+ci\_beta $<-$ c()\\
+std\_alpha $<-$ c()\\
+std\_beta $<-$ c()\\
+
+set.seed(12345)\\
+for (i in 1:10)\{\\
+	boot $<-$ bootcapm(mkt\$ex\_logret, stock\_ex[,i], 1000)\\
+	alphas $<-$ c(alphas, mean(boot[,1]))\\
+	betas $<-$ c(betas, mean(boot[,2]))\\
+	ci\_alpha $<-$ c(ci\_alpha, quantile(boot[,1], c(0.005, 0.995)))\\
+	ci\_beta $<-$ c(ci\_beta, quantile(boot[,2], c(0.005, 0.995)))\\
+	std\_alpha $<-$ c(std\_alpha, sd(boot[,1]))\\
+	std\_beta $<-$ c(std\_beta, sd(boot[,2]))\\
+}\\
+
+
+
+% that's all folks
+\end{document}
+
+
