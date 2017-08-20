@@ -1,0 +1,515 @@
+with use historical = 0, m = 5, w = 5, e = 2, sigmaEntry = 0.24, sigmaExit = 0.32, Tmin = 40, Tmax = 100, delta = 0.1 ------- sharpe ratio is -0.376806
+iteration time = 7.047, max SR is -0.376806
+with use historical = 0, m = 5, w = 5, e = 2, sigmaEntry = 0.24, sigmaExit = 0.36, Tmin = 40, Tmax = 100, delta = 0.1 ------- sharpe ratio is -1.33502
+iteration time = 6.797, max SR is -0.376806
+with use historical = 0, m = 5, w = 5, e = 2, sigmaEntry = 0.28, sigmaExit = 0.32, Tmin = 40, Tmax = 100, delta = 0.1 ------- sharpe ratio is 0.2529
+iteration time = 6.953, max SR is 0.2529
+with use historical = 0, m = 5, w = 5, e = 2, sigmaEntry = 0.28, sigmaExit = 0.36, Tmin = 40, Tmax = 100, delta = 0.1 ------- sharpe ratio is -2.09922
+iteration time = 7.236, max SR is 0.2529
+with use historical = 1, m = 5, w = 5, e = 2, sigmaEntry = 0.3, sigmaExit = 0.5, Tmin = 40, Tmax = 100, delta = 0.1 ------- sharpe ratio is 0.781272
+iteration time = 6.63, max SR is 0.781272
+with use historical = 1, m = 5, w = 5, e = 2, sigmaEntry = 0.3, sigmaExit = 0.6, Tmin = 40, Tmax = 100, delta = 0.1 ------- sharpe ratio is 0.693441
+iteration time = 6.75, max SR is 0.781272
+with use historical = 1, m = 5, w = 5, e = 2, sigmaEntry = 0.4, sigmaExit = 0.5, Tmin = 40, Tmax = 100, delta = 0.1 ------- sharpe ratio is 0.48976
+iteration time = 7, max SR is 0.781272
+with use historical = 1, m = 5, w = 5, e = 2, sigmaEntry = 0.4, sigmaExit = 0.6, Tmin = 40, Tmax = 100, delta = 0.1 ------- sharpe ratio is 0.0226018
+iteration time = 7.062, max SR is 0.781272
+with use historical = 0, m = 5, w = 5, e = 2, sigmaEntry = 0.24, sigmaExit = 0.32, Tmin = 40, Tmax = 100, delta = 0.2 ------- sharpe ratio is -0.628491
+iteration time = 7.078, max SR is 0.781272
+with use historical = 0, m = 5, w = 5, e = 2, sigmaEntry = 0.24, sigmaExit = 0.36, Tmin = 40, Tmax = 100, delta = 0.2 ------- sharpe ratio is -1.48246
+iteration time = 6.858, max SR is 0.781272
+with use historical = 0, m = 5, w = 5, e = 2, sigmaEntry = 0.28, sigmaExit = 0.32, Tmin = 40, Tmax = 100, delta = 0.2 ------- sharpe ratio is 0.416186
+iteration time = 7.104, max SR is 0.781272
+with use historical = 0, m = 5, w = 5, e = 2, sigmaEntry = 0.28, sigmaExit = 0.36, Tmin = 40, Tmax = 100, delta = 0.2 ------- sharpe ratio is -1.91506
+iteration time = 6.969, max SR is 0.781272
+with use historical = 1, m = 5, w = 5, e = 2, sigmaEntry = 0.3, sigmaExit = 0.5, Tmin = 40, Tmax = 100, delta = 0.2 ------- sharpe ratio is 0.272535
+iteration time = 6.719, max SR is 0.781272
+with use historical = 1, m = 5, w = 5, e = 2, sigmaEntry = 0.3, sigmaExit = 0.6, Tmin = 40, Tmax = 100, delta = 0.2 ------- sharpe ratio is 0.218338
+iteration time = 6.672, max SR is 0.781272
+with use historical = 1, m = 5, w = 5, e = 2, sigmaEntry = 0.4, sigmaExit = 0.5, Tmin = 40, Tmax = 100, delta = 0.2 ------- sharpe ratio is 0.300902
+iteration time = 6.735, max SR is 0.781272
+with use historical = 1, m = 5, w = 5, e = 2, sigmaEntry = 0.4, sigmaExit = 0.6, Tmin = 40, Tmax = 100, delta = 0.2 ------- sharpe ratio is -0.165887
+iteration time = 6.827, max SR is 0.781272
+with use historical = 0, m = 5, w = 5, e = 2, sigmaEntry = 0.24, sigmaExit = 0.32, Tmin = 40, Tmax = 140, delta = 0.1 ------- sharpe ratio is -1.29666
+iteration time = 6.766, max SR is 0.781272
+with use historical = 0, m = 5, w = 5, e = 2, sigmaEntry = 0.24, sigmaExit = 0.36, Tmin = 40, Tmax = 140, delta = 0.1 ------- sharpe ratio is -1.59978
+iteration time = 6.891, max SR is 0.781272
+with use historical = 0, m = 5, w = 5, e = 2, sigmaEntry = 0.28, sigmaExit = 0.32, Tmin = 40, Tmax = 140, delta = 0.1 ------- sharpe ratio is 0.209422
+iteration time = 7.047, max SR is 0.781272
+with use historical = 0, m = 5, w = 5, e = 2, sigmaEntry = 0.28, sigmaExit = 0.36, Tmin = 40, Tmax = 140, delta = 0.1 ------- sharpe ratio is 0.700132
+iteration time = 7.203, max SR is 0.781272
+with use historical = 1, m = 5, w = 5, e = 2, sigmaEntry = 0.3, sigmaExit = 0.5, Tmin = 40, Tmax = 140, delta = 0.1 ------- sharpe ratio is 0.781272
+iteration time = 6.672, max SR is 0.781272
+with use historical = 1, m = 5, w = 5, e = 2, sigmaEntry = 0.3, sigmaExit = 0.6, Tmin = 40, Tmax = 140, delta = 0.1 ------- sharpe ratio is 0.693441
+iteration time = 6.794, max SR is 0.781272
+with use historical = 1, m = 5, w = 5, e = 2, sigmaEntry = 0.4, sigmaExit = 0.5, Tmin = 40, Tmax = 140, delta = 0.1 ------- sharpe ratio is 0.56776
+iteration time = 6.825, max SR is 0.781272
+with use historical = 1, m = 5, w = 5, e = 2, sigmaEntry = 0.4, sigmaExit = 0.6, Tmin = 40, Tmax = 140, delta = 0.1 ------- sharpe ratio is 0.467782
+iteration time = 6.813, max SR is 0.781272
+with use historical = 0, m = 5, w = 5, e = 2, sigmaEntry = 0.24, sigmaExit = 0.32, Tmin = 40, Tmax = 140, delta = 0.2 ------- sharpe ratio is -1.35722
+iteration time = 6.782, max SR is 0.781272
+with use historical = 0, m = 5, w = 5, e = 2, sigmaEntry = 0.24, sigmaExit = 0.36, Tmin = 40, Tmax = 140, delta = 0.2 ------- sharpe ratio is -1.65371
+iteration time = 6.891, max SR is 0.781272
+with use historical = 0, m = 5, w = 5, e = 2, sigmaEntry = 0.28, sigmaExit = 0.32, Tmin = 40, Tmax = 140, delta = 0.2 ------- sharpe ratio is 0.231562
+iteration time = 7.062, max SR is 0.781272
+with use historical = 0, m = 5, w = 5, e = 2, sigmaEntry = 0.28, sigmaExit = 0.36, Tmin = 40, Tmax = 140, delta = 0.2 ------- sharpe ratio is 0.658672
+iteration time = 7.223, max SR is 0.781272
+with use historical = 1, m = 5, w = 5, e = 2, sigmaEntry = 0.3, sigmaExit = 0.5, Tmin = 40, Tmax = 140, delta = 0.2 ------- sharpe ratio is 0.272535
+iteration time = 6.646, max SR is 0.781272
+with use historical = 1, m = 5, w = 5, e = 2, sigmaEntry = 0.3, sigmaExit = 0.6, Tmin = 40, Tmax = 140, delta = 0.2 ------- sharpe ratio is 0.218338
+iteration time = 6.75, max SR is 0.781272
+with use historical = 1, m = 5, w = 5, e = 2, sigmaEntry = 0.4, sigmaExit = 0.5, Tmin = 40, Tmax = 140, delta = 0.2 ------- sharpe ratio is -0.0738101
+iteration time = 6.86, max SR is 0.781272
+with use historical = 1, m = 5, w = 5, e = 2, sigmaEntry = 0.4, sigmaExit = 0.6, Tmin = 40, Tmax = 140, delta = 0.2 ------- sharpe ratio is -0.13744
+iteration time = 6.891, max SR is 0.781272
+with use historical = 0, m = 5, w = 5, e = 2, sigmaEntry = 0.24, sigmaExit = 0.32, Tmin = 80, Tmax = 100, delta = 0.1 ------- sharpe ratio is 1.86352
+iteration time = 6.626, max SR is 1.86352
+with use historical = 0, m = 5, w = 5, e = 2, sigmaEntry = 0.24, sigmaExit = 0.36, Tmin = 80, Tmax = 100, delta = 0.1 ------- sharpe ratio is 2.1983
+iteration time = 6.686, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 2, sigmaEntry = 0.28, sigmaExit = 0.32, Tmin = 80, Tmax = 100, delta = 0.1 ------- sharpe ratio is 0.862074
+iteration time = 6.62, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 2, sigmaEntry = 0.28, sigmaExit = 0.36, Tmin = 80, Tmax = 100, delta = 0.1 ------- sharpe ratio is 1.04918
+iteration time = 6.578, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 2, sigmaEntry = 0.3, sigmaExit = 0.5, Tmin = 80, Tmax = 100, delta = 0.1 ------- sharpe ratio is 1.55715
+iteration time = 7.079, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 2, sigmaEntry = 0.3, sigmaExit = 0.6, Tmin = 80, Tmax = 100, delta = 0.1 ------- sharpe ratio is 1.53548
+iteration time = 7.125, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 2, sigmaEntry = 0.4, sigmaExit = 0.5, Tmin = 80, Tmax = 100, delta = 0.1 ------- sharpe ratio is 1.35239
+iteration time = 7.344, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 2, sigmaEntry = 0.4, sigmaExit = 0.6, Tmin = 80, Tmax = 100, delta = 0.1 ------- sharpe ratio is 1.03927
+iteration time = 7.547, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 2, sigmaEntry = 0.24, sigmaExit = 0.32, Tmin = 80, Tmax = 100, delta = 0.2 ------- sharpe ratio is -2.96191
+iteration time = 6.621, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 2, sigmaEntry = 0.24, sigmaExit = 0.36, Tmin = 80, Tmax = 100, delta = 0.2 ------- sharpe ratio is -3.34863
+iteration time = 6.594, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 2, sigmaEntry = 0.28, sigmaExit = 0.32, Tmin = 80, Tmax = 100, delta = 0.2 ------- sharpe ratio is 0.87898
+iteration time = 6.672, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 2, sigmaEntry = 0.28, sigmaExit = 0.36, Tmin = 80, Tmax = 100, delta = 0.2 ------- sharpe ratio is 0.664158
+iteration time = 6.656, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 2, sigmaEntry = 0.3, sigmaExit = 0.5, Tmin = 80, Tmax = 100, delta = 0.2 ------- sharpe ratio is 1.49054
+iteration time = 7.157, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 2, sigmaEntry = 0.3, sigmaExit = 0.6, Tmin = 80, Tmax = 100, delta = 0.2 ------- sharpe ratio is 1.47494
+iteration time = 7.218, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 2, sigmaEntry = 0.4, sigmaExit = 0.5, Tmin = 80, Tmax = 100, delta = 0.2 ------- sharpe ratio is 1.33626
+iteration time = 7.453, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 2, sigmaEntry = 0.4, sigmaExit = 0.6, Tmin = 80, Tmax = 100, delta = 0.2 ------- sharpe ratio is 1.02253
+iteration time = 7.391, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 2, sigmaEntry = 0.24, sigmaExit = 0.32, Tmin = 80, Tmax = 140, delta = 0.1 ------- sharpe ratio is 1.44222
+iteration time = 7.063, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 2, sigmaEntry = 0.24, sigmaExit = 0.36, Tmin = 80, Tmax = 140, delta = 0.1 ------- sharpe ratio is 1.98117
+iteration time = 7.718, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 2, sigmaEntry = 0.28, sigmaExit = 0.32, Tmin = 80, Tmax = 140, delta = 0.1 ------- sharpe ratio is 0.868903
+iteration time = 7.984, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 2, sigmaEntry = 0.28, sigmaExit = 0.36, Tmin = 80, Tmax = 140, delta = 0.1 ------- sharpe ratio is 0.847836
+iteration time = 8.251, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 2, sigmaEntry = 0.3, sigmaExit = 0.5, Tmin = 80, Tmax = 140, delta = 0.1 ------- sharpe ratio is 0.195755
+iteration time = 7.532, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 2, sigmaEntry = 0.3, sigmaExit = 0.6, Tmin = 80, Tmax = 140, delta = 0.1 ------- sharpe ratio is 0.143836
+iteration time = 7.594, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 2, sigmaEntry = 0.4, sigmaExit = 0.5, Tmin = 80, Tmax = 140, delta = 0.1 ------- sharpe ratio is 0.0237123
+iteration time = 7.672, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 2, sigmaEntry = 0.4, sigmaExit = 0.6, Tmin = 80, Tmax = 140, delta = 0.1 ------- sharpe ratio is -0.0406086
+iteration time = 7.797, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 2, sigmaEntry = 0.24, sigmaExit = 0.32, Tmin = 80, Tmax = 140, delta = 0.2 ------- sharpe ratio is -2.81044
+iteration time = 7.11, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 2, sigmaEntry = 0.24, sigmaExit = 0.36, Tmin = 80, Tmax = 140, delta = 0.2 ------- sharpe ratio is 1.58273
+iteration time = 7.735, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 2, sigmaEntry = 0.28, sigmaExit = 0.32, Tmin = 80, Tmax = 140, delta = 0.2 ------- sharpe ratio is 0.800691
+iteration time = 7.891, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 2, sigmaEntry = 0.28, sigmaExit = 0.36, Tmin = 80, Tmax = 140, delta = 0.2 ------- sharpe ratio is 0.95309
+iteration time = 8.156, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 2, sigmaEntry = 0.3, sigmaExit = 0.5, Tmin = 80, Tmax = 140, delta = 0.2 ------- sharpe ratio is 0.0418377
+iteration time = 7.562, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 2, sigmaEntry = 0.3, sigmaExit = 0.6, Tmin = 80, Tmax = 140, delta = 0.2 ------- sharpe ratio is 0.00160119
+iteration time = 7.665, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 2, sigmaEntry = 0.4, sigmaExit = 0.5, Tmin = 80, Tmax = 140, delta = 0.2 ------- sharpe ratio is -0.239236
+iteration time = 7.764, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 2, sigmaEntry = 0.4, sigmaExit = 0.6, Tmin = 80, Tmax = 140, delta = 0.2 ------- sharpe ratio is -0.29074
+iteration time = 8.079, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 20, sigmaEntry = 0.24, sigmaExit = 0.32, Tmin = 40, Tmax = 100, delta = 0.1 ------- sharpe ratio is -0.376806
+iteration time = 6.844, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 20, sigmaEntry = 0.24, sigmaExit = 0.36, Tmin = 40, Tmax = 100, delta = 0.1 ------- sharpe ratio is -1.14067
+iteration time = 6.953, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 20, sigmaEntry = 0.28, sigmaExit = 0.32, Tmin = 40, Tmax = 100, delta = 0.1 ------- sharpe ratio is 0.2529
+iteration time = 7, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 20, sigmaEntry = 0.28, sigmaExit = 0.36, Tmin = 40, Tmax = 100, delta = 0.1 ------- sharpe ratio is -0.649232
+iteration time = 7.06, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 20, sigmaEntry = 0.3, sigmaExit = 0.5, Tmin = 40, Tmax = 100, delta = 0.1 ------- sharpe ratio is 0.510691
+iteration time = 6.668, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 20, sigmaEntry = 0.3, sigmaExit = 0.6, Tmin = 40, Tmax = 100, delta = 0.1 ------- sharpe ratio is 0.448096
+iteration time = 6.672, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 20, sigmaEntry = 0.4, sigmaExit = 0.5, Tmin = 40, Tmax = 100, delta = 0.1 ------- sharpe ratio is 0.391636
+iteration time = 6.813, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 20, sigmaEntry = 0.4, sigmaExit = 0.6, Tmin = 40, Tmax = 100, delta = 0.1 ------- sharpe ratio is -0.0511364
+iteration time = 6.984, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 20, sigmaEntry = 0.24, sigmaExit = 0.32, Tmin = 40, Tmax = 100, delta = 0.2 ------- sharpe ratio is -0.628491
+iteration time = 6.954, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 20, sigmaEntry = 0.24, sigmaExit = 0.36, Tmin = 40, Tmax = 100, delta = 0.2 ------- sharpe ratio is -1.10408
+iteration time = 6.968, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 20, sigmaEntry = 0.28, sigmaExit = 0.32, Tmin = 40, Tmax = 100, delta = 0.2 ------- sharpe ratio is 0.416186
+iteration time = 6.937, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 20, sigmaEntry = 0.28, sigmaExit = 0.36, Tmin = 40, Tmax = 100, delta = 0.2 ------- sharpe ratio is -0.299942
+iteration time = 6.953, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 20, sigmaEntry = 0.3, sigmaExit = 0.5, Tmin = 40, Tmax = 100, delta = 0.2 ------- sharpe ratio is 0.684475
+iteration time = 6.703, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 20, sigmaEntry = 0.3, sigmaExit = 0.6, Tmin = 40, Tmax = 100, delta = 0.2 ------- sharpe ratio is 0.613469
+iteration time = 6.64, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 20, sigmaEntry = 0.4, sigmaExit = 0.5, Tmin = 40, Tmax = 100, delta = 0.2 ------- sharpe ratio is 0.496508
+iteration time = 6.89, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 20, sigmaEntry = 0.4, sigmaExit = 0.6, Tmin = 40, Tmax = 100, delta = 0.2 ------- sharpe ratio is 0.0248649
+iteration time = 7.017, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 20, sigmaEntry = 0.24, sigmaExit = 0.32, Tmin = 40, Tmax = 140, delta = 0.1 ------- sharpe ratio is 0.0405915
+iteration time = 7.172, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 20, sigmaEntry = 0.24, sigmaExit = 0.36, Tmin = 40, Tmax = 140, delta = 0.1 ------- sharpe ratio is 0.499822
+iteration time = 7.281, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 20, sigmaEntry = 0.28, sigmaExit = 0.32, Tmin = 40, Tmax = 140, delta = 0.1 ------- sharpe ratio is 0.608339
+iteration time = 7.125, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 20, sigmaEntry = 0.28, sigmaExit = 0.36, Tmin = 40, Tmax = 140, delta = 0.1 ------- sharpe ratio is 1.04418
+iteration time = 7.313, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 20, sigmaEntry = 0.3, sigmaExit = 0.5, Tmin = 40, Tmax = 140, delta = 0.1 ------- sharpe ratio is 0.510691
+iteration time = 6.688, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 20, sigmaEntry = 0.3, sigmaExit = 0.6, Tmin = 40, Tmax = 140, delta = 0.1 ------- sharpe ratio is 0.448096
+iteration time = 6.75, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 20, sigmaEntry = 0.4, sigmaExit = 0.5, Tmin = 40, Tmax = 140, delta = 0.1 ------- sharpe ratio is 0.331677
+iteration time = 6.797, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 20, sigmaEntry = 0.4, sigmaExit = 0.6, Tmin = 40, Tmax = 140, delta = 0.1 ------- sharpe ratio is 0.256792
+iteration time = 6.829, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 20, sigmaEntry = 0.24, sigmaExit = 0.32, Tmin = 40, Tmax = 140, delta = 0.2 ------- sharpe ratio is 0.265737
+iteration time = 7.031, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 20, sigmaEntry = 0.24, sigmaExit = 0.36, Tmin = 40, Tmax = 140, delta = 0.2 ------- sharpe ratio is 0.662282
+iteration time = 7.156, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 20, sigmaEntry = 0.28, sigmaExit = 0.32, Tmin = 40, Tmax = 140, delta = 0.2 ------- sharpe ratio is 1.00649
+iteration time = 7.11, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 20, sigmaEntry = 0.28, sigmaExit = 0.36, Tmin = 40, Tmax = 140, delta = 0.2 ------- sharpe ratio is 1.36947
+iteration time = 7.281, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 20, sigmaEntry = 0.3, sigmaExit = 0.5, Tmin = 40, Tmax = 140, delta = 0.2 ------- sharpe ratio is 0.684475
+iteration time = 6.672, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 20, sigmaEntry = 0.3, sigmaExit = 0.6, Tmin = 40, Tmax = 140, delta = 0.2 ------- sharpe ratio is 0.613469
+iteration time = 6.735, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 20, sigmaEntry = 0.4, sigmaExit = 0.5, Tmin = 40, Tmax = 140, delta = 0.2 ------- sharpe ratio is 0.352118
+iteration time = 6.797, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 20, sigmaEntry = 0.4, sigmaExit = 0.6, Tmin = 40, Tmax = 140, delta = 0.2 ------- sharpe ratio is 0.272116
+iteration time = 6.828, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 20, sigmaEntry = 0.24, sigmaExit = 0.32, Tmin = 80, Tmax = 100, delta = 0.1 ------- sharpe ratio is 1.86352
+iteration time = 6.516, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 20, sigmaEntry = 0.24, sigmaExit = 0.36, Tmin = 80, Tmax = 100, delta = 0.1 ------- sharpe ratio is 2.1983
+iteration time = 6.623, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 20, sigmaEntry = 0.28, sigmaExit = 0.32, Tmin = 80, Tmax = 100, delta = 0.1 ------- sharpe ratio is 0.862074
+iteration time = 6.542, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 20, sigmaEntry = 0.28, sigmaExit = 0.36, Tmin = 80, Tmax = 100, delta = 0.1 ------- sharpe ratio is 1.04918
+iteration time = 6.594, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 20, sigmaEntry = 0.3, sigmaExit = 0.5, Tmin = 80, Tmax = 100, delta = 0.1 ------- sharpe ratio is 1.55715
+iteration time = 7.094, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 20, sigmaEntry = 0.3, sigmaExit = 0.6, Tmin = 80, Tmax = 100, delta = 0.1 ------- sharpe ratio is 1.53548
+iteration time = 7.125, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 20, sigmaEntry = 0.4, sigmaExit = 0.5, Tmin = 80, Tmax = 100, delta = 0.1 ------- sharpe ratio is 1.35239
+iteration time = 7.219, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 20, sigmaEntry = 0.4, sigmaExit = 0.6, Tmin = 80, Tmax = 100, delta = 0.1 ------- sharpe ratio is 1.03927
+iteration time = 7.296, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 20, sigmaEntry = 0.24, sigmaExit = 0.32, Tmin = 80, Tmax = 100, delta = 0.2 ------- sharpe ratio is -2.96191
+iteration time = 6.516, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 20, sigmaEntry = 0.24, sigmaExit = 0.36, Tmin = 80, Tmax = 100, delta = 0.2 ------- sharpe ratio is -3.34863
+iteration time = 6.547, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 20, sigmaEntry = 0.28, sigmaExit = 0.32, Tmin = 80, Tmax = 100, delta = 0.2 ------- sharpe ratio is 0.87898
+iteration time = 6.563, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 20, sigmaEntry = 0.28, sigmaExit = 0.36, Tmin = 80, Tmax = 100, delta = 0.2 ------- sharpe ratio is 0.664158
+iteration time = 6.578, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 20, sigmaEntry = 0.3, sigmaExit = 0.5, Tmin = 80, Tmax = 100, delta = 0.2 ------- sharpe ratio is 1.49054
+iteration time = 7.078, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 20, sigmaEntry = 0.3, sigmaExit = 0.6, Tmin = 80, Tmax = 100, delta = 0.2 ------- sharpe ratio is 1.47494
+iteration time = 7.172, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 20, sigmaEntry = 0.4, sigmaExit = 0.5, Tmin = 80, Tmax = 100, delta = 0.2 ------- sharpe ratio is 1.33626
+iteration time = 7.266, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 20, sigmaEntry = 0.4, sigmaExit = 0.6, Tmin = 80, Tmax = 100, delta = 0.2 ------- sharpe ratio is 1.02253
+iteration time = 7.25, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 20, sigmaEntry = 0.24, sigmaExit = 0.32, Tmin = 80, Tmax = 140, delta = 0.1 ------- sharpe ratio is 1.44222
+iteration time = 6.969, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 20, sigmaEntry = 0.24, sigmaExit = 0.36, Tmin = 80, Tmax = 140, delta = 0.1 ------- sharpe ratio is 1.98117
+iteration time = 7.609, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 20, sigmaEntry = 0.28, sigmaExit = 0.32, Tmin = 80, Tmax = 140, delta = 0.1 ------- sharpe ratio is 0.868903
+iteration time = 7.89, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 20, sigmaEntry = 0.28, sigmaExit = 0.36, Tmin = 80, Tmax = 140, delta = 0.1 ------- sharpe ratio is 0.847836
+iteration time = 8.169, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 20, sigmaEntry = 0.3, sigmaExit = 0.5, Tmin = 80, Tmax = 140, delta = 0.1 ------- sharpe ratio is 0.195755
+iteration time = 7.578, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 20, sigmaEntry = 0.3, sigmaExit = 0.6, Tmin = 80, Tmax = 140, delta = 0.1 ------- sharpe ratio is 0.143836
+iteration time = 7.687, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 20, sigmaEntry = 0.4, sigmaExit = 0.5, Tmin = 80, Tmax = 140, delta = 0.1 ------- sharpe ratio is 0.0237123
+iteration time = 7.688, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 20, sigmaEntry = 0.4, sigmaExit = 0.6, Tmin = 80, Tmax = 140, delta = 0.1 ------- sharpe ratio is -0.0406086
+iteration time = 7.797, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 20, sigmaEntry = 0.24, sigmaExit = 0.32, Tmin = 80, Tmax = 140, delta = 0.2 ------- sharpe ratio is -2.81044
+iteration time = 7.125, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 20, sigmaEntry = 0.24, sigmaExit = 0.36, Tmin = 80, Tmax = 140, delta = 0.2 ------- sharpe ratio is 1.58273
+iteration time = 7.609, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 20, sigmaEntry = 0.28, sigmaExit = 0.32, Tmin = 80, Tmax = 140, delta = 0.2 ------- sharpe ratio is 0.800691
+iteration time = 7.969, max SR is 2.1983
+with use historical = 0, m = 5, w = 5, e = 20, sigmaEntry = 0.28, sigmaExit = 0.36, Tmin = 80, Tmax = 140, delta = 0.2 ------- sharpe ratio is 0.95309
+iteration time = 8.219, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 20, sigmaEntry = 0.3, sigmaExit = 0.5, Tmin = 80, Tmax = 140, delta = 0.2 ------- sharpe ratio is 0.0418377
+iteration time = 7.594, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 20, sigmaEntry = 0.3, sigmaExit = 0.6, Tmin = 80, Tmax = 140, delta = 0.2 ------- sharpe ratio is 0.00160119
+iteration time = 7.721, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 20, sigmaEntry = 0.4, sigmaExit = 0.5, Tmin = 80, Tmax = 140, delta = 0.2 ------- sharpe ratio is -0.239236
+iteration time = 7.744, max SR is 2.1983
+with use historical = 1, m = 5, w = 5, e = 20, sigmaEntry = 0.4, sigmaExit = 0.6, Tmin = 80, Tmax = 140, delta = 0.2 ------- sharpe ratio is -0.29074
+iteration time = 7.703, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 2, sigmaEntry = 0.24, sigmaExit = 0.32, Tmin = 40, Tmax = 100, delta = 0.1 ------- sharpe ratio is -0.376806
+iteration time = 7, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 2, sigmaEntry = 0.24, sigmaExit = 0.36, Tmin = 40, Tmax = 100, delta = 0.1 ------- sharpe ratio is -1.33502
+iteration time = 6.657, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 2, sigmaEntry = 0.28, sigmaExit = 0.32, Tmin = 40, Tmax = 100, delta = 0.1 ------- sharpe ratio is 0.2529
+iteration time = 6.969, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 2, sigmaEntry = 0.28, sigmaExit = 0.36, Tmin = 40, Tmax = 100, delta = 0.1 ------- sharpe ratio is -2.09922
+iteration time = 7.105, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 2, sigmaEntry = 0.3, sigmaExit = 0.5, Tmin = 40, Tmax = 100, delta = 0.1 ------- sharpe ratio is 0.541429
+iteration time = 6.767, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 2, sigmaEntry = 0.3, sigmaExit = 0.6, Tmin = 40, Tmax = 100, delta = 0.1 ------- sharpe ratio is 0.417303
+iteration time = 7.094, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 2, sigmaEntry = 0.4, sigmaExit = 0.5, Tmin = 40, Tmax = 100, delta = 0.1 ------- sharpe ratio is 0.556556
+iteration time = 6.797, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 2, sigmaEntry = 0.4, sigmaExit = 0.6, Tmin = 40, Tmax = 100, delta = 0.1 ------- sharpe ratio is 0.406419
+iteration time = 7.141, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 2, sigmaEntry = 0.24, sigmaExit = 0.32, Tmin = 40, Tmax = 100, delta = 0.2 ------- sharpe ratio is -0.628491
+iteration time = 6.86, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 2, sigmaEntry = 0.24, sigmaExit = 0.36, Tmin = 40, Tmax = 100, delta = 0.2 ------- sharpe ratio is -1.48246
+iteration time = 6.688, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 2, sigmaEntry = 0.28, sigmaExit = 0.32, Tmin = 40, Tmax = 100, delta = 0.2 ------- sharpe ratio is 0.416186
+iteration time = 6.906, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 2, sigmaEntry = 0.28, sigmaExit = 0.36, Tmin = 40, Tmax = 100, delta = 0.2 ------- sharpe ratio is -1.91506
+iteration time = 6.954, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 2, sigmaEntry = 0.3, sigmaExit = 0.5, Tmin = 40, Tmax = 100, delta = 0.2 ------- sharpe ratio is 0.403523
+iteration time = 6.75, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 2, sigmaEntry = 0.3, sigmaExit = 0.6, Tmin = 40, Tmax = 100, delta = 0.2 ------- sharpe ratio is 0.336375
+iteration time = 6.937, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 2, sigmaEntry = 0.4, sigmaExit = 0.5, Tmin = 40, Tmax = 100, delta = 0.2 ------- sharpe ratio is 0.438444
+iteration time = 6.766, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 2, sigmaEntry = 0.4, sigmaExit = 0.6, Tmin = 40, Tmax = 100, delta = 0.2 ------- sharpe ratio is 0.353768
+iteration time = 7.015, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 2, sigmaEntry = 0.24, sigmaExit = 0.32, Tmin = 40, Tmax = 140, delta = 0.1 ------- sharpe ratio is -1.29666
+iteration time = 6.782, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 2, sigmaEntry = 0.24, sigmaExit = 0.36, Tmin = 40, Tmax = 140, delta = 0.1 ------- sharpe ratio is -1.59978
+iteration time = 6.891, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 2, sigmaEntry = 0.28, sigmaExit = 0.32, Tmin = 40, Tmax = 140, delta = 0.1 ------- sharpe ratio is 0.209422
+iteration time = 7.063, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 2, sigmaEntry = 0.28, sigmaExit = 0.36, Tmin = 40, Tmax = 140, delta = 0.1 ------- sharpe ratio is 0.700132
+iteration time = 7.204, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 2, sigmaEntry = 0.3, sigmaExit = 0.5, Tmin = 40, Tmax = 140, delta = 0.1 ------- sharpe ratio is -1.53731
+iteration time = 7.141, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 2, sigmaEntry = 0.3, sigmaExit = 0.6, Tmin = 40, Tmax = 140, delta = 0.1 ------- sharpe ratio is -1.62584
+iteration time = 7.016, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 2, sigmaEntry = 0.4, sigmaExit = 0.5, Tmin = 40, Tmax = 140, delta = 0.1 ------- sharpe ratio is -1.50008
+iteration time = 6.875, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 2, sigmaEntry = 0.4, sigmaExit = 0.6, Tmin = 40, Tmax = 140, delta = 0.1 ------- sharpe ratio is -1.57679
+iteration time = 7.031, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 2, sigmaEntry = 0.24, sigmaExit = 0.32, Tmin = 40, Tmax = 140, delta = 0.2 ------- sharpe ratio is -1.35722
+iteration time = 6.844, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 2, sigmaEntry = 0.24, sigmaExit = 0.36, Tmin = 40, Tmax = 140, delta = 0.2 ------- sharpe ratio is -1.65371
+iteration time = 6.984, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 2, sigmaEntry = 0.28, sigmaExit = 0.32, Tmin = 40, Tmax = 140, delta = 0.2 ------- sharpe ratio is 0.231562
+iteration time = 7.156, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 2, sigmaEntry = 0.28, sigmaExit = 0.36, Tmin = 40, Tmax = 140, delta = 0.2 ------- sharpe ratio is 0.658672
+iteration time = 7.547, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 2, sigmaEntry = 0.3, sigmaExit = 0.5, Tmin = 40, Tmax = 140, delta = 0.2 ------- sharpe ratio is -1.58196
+iteration time = 6.859, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 2, sigmaEntry = 0.3, sigmaExit = 0.6, Tmin = 40, Tmax = 140, delta = 0.2 ------- sharpe ratio is -1.59476
+iteration time = 7, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 2, sigmaEntry = 0.4, sigmaExit = 0.5, Tmin = 40, Tmax = 140, delta = 0.2 ------- sharpe ratio is -1.50477
+iteration time = 6.797, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 2, sigmaEntry = 0.4, sigmaExit = 0.6, Tmin = 40, Tmax = 140, delta = 0.2 ------- sharpe ratio is -1.51637
+iteration time = 6.969, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 2, sigmaEntry = 0.24, sigmaExit = 0.32, Tmin = 80, Tmax = 100, delta = 0.1 ------- sharpe ratio is 1.86352
+iteration time = 6.563, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 2, sigmaEntry = 0.24, sigmaExit = 0.36, Tmin = 80, Tmax = 100, delta = 0.1 ------- sharpe ratio is 2.1983
+iteration time = 6.624, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 2, sigmaEntry = 0.28, sigmaExit = 0.32, Tmin = 80, Tmax = 100, delta = 0.1 ------- sharpe ratio is 0.862074
+iteration time = 6.625, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 2, sigmaEntry = 0.28, sigmaExit = 0.36, Tmin = 80, Tmax = 100, delta = 0.1 ------- sharpe ratio is 1.04918
+iteration time = 6.687, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 2, sigmaEntry = 0.3, sigmaExit = 0.5, Tmin = 80, Tmax = 100, delta = 0.1 ------- sharpe ratio is 0.757506
+iteration time = 7.234, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 2, sigmaEntry = 0.3, sigmaExit = 0.6, Tmin = 80, Tmax = 100, delta = 0.1 ------- sharpe ratio is 0.731613
+iteration time = 7.484, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 2, sigmaEntry = 0.4, sigmaExit = 0.5, Tmin = 80, Tmax = 100, delta = 0.1 ------- sharpe ratio is 0.772833
+iteration time = 7.219, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 2, sigmaEntry = 0.4, sigmaExit = 0.6, Tmin = 80, Tmax = 100, delta = 0.1 ------- sharpe ratio is 0.713359
+iteration time = 7.514, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 2, sigmaEntry = 0.24, sigmaExit = 0.32, Tmin = 80, Tmax = 100, delta = 0.2 ------- sharpe ratio is -2.96191
+iteration time = 6.579, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 2, sigmaEntry = 0.24, sigmaExit = 0.36, Tmin = 80, Tmax = 100, delta = 0.2 ------- sharpe ratio is -3.34863
+iteration time = 6.797, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 2, sigmaEntry = 0.28, sigmaExit = 0.32, Tmin = 80, Tmax = 100, delta = 0.2 ------- sharpe ratio is 0.87898
+iteration time = 6.781, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 2, sigmaEntry = 0.28, sigmaExit = 0.36, Tmin = 80, Tmax = 100, delta = 0.2 ------- sharpe ratio is 0.664158
+iteration time = 6.922, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 2, sigmaEntry = 0.3, sigmaExit = 0.5, Tmin = 80, Tmax = 100, delta = 0.2 ------- sharpe ratio is 0.678897
+iteration time = 7.873, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 2, sigmaEntry = 0.3, sigmaExit = 0.6, Tmin = 80, Tmax = 100, delta = 0.2 ------- sharpe ratio is 0.709939
+iteration time = 7.744, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 2, sigmaEntry = 0.4, sigmaExit = 0.5, Tmin = 80, Tmax = 100, delta = 0.2 ------- sharpe ratio is 0.715661
+iteration time = 8.485, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 2, sigmaEntry = 0.4, sigmaExit = 0.6, Tmin = 80, Tmax = 100, delta = 0.2 ------- sharpe ratio is 0.721991
+iteration time = 9.234, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 2, sigmaEntry = 0.24, sigmaExit = 0.32, Tmin = 80, Tmax = 140, delta = 0.1 ------- sharpe ratio is 1.44222
+iteration time = 8.937, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 2, sigmaEntry = 0.24, sigmaExit = 0.36, Tmin = 80, Tmax = 140, delta = 0.1 ------- sharpe ratio is 1.98117
+iteration time = 9.537, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 2, sigmaEntry = 0.28, sigmaExit = 0.32, Tmin = 80, Tmax = 140, delta = 0.1 ------- sharpe ratio is 0.868903
+iteration time = 10.227, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 2, sigmaEntry = 0.28, sigmaExit = 0.36, Tmin = 80, Tmax = 140, delta = 0.1 ------- sharpe ratio is 0.847836
+iteration time = 10.188, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 2, sigmaEntry = 0.3, sigmaExit = 0.5, Tmin = 80, Tmax = 140, delta = 0.1 ------- sharpe ratio is -1.46247
+iteration time = 9.484, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 2, sigmaEntry = 0.3, sigmaExit = 0.6, Tmin = 80, Tmax = 140, delta = 0.1 ------- sharpe ratio is -1.34801
+iteration time = 9.581, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 2, sigmaEntry = 0.4, sigmaExit = 0.5, Tmin = 80, Tmax = 140, delta = 0.1 ------- sharpe ratio is -1.41469
+iteration time = 9.267, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 2, sigmaEntry = 0.4, sigmaExit = 0.6, Tmin = 80, Tmax = 140, delta = 0.1 ------- sharpe ratio is -1.2907
+iteration time = 9.547, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 2, sigmaEntry = 0.24, sigmaExit = 0.32, Tmin = 80, Tmax = 140, delta = 0.2 ------- sharpe ratio is -2.81044
+iteration time = 8.906, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 2, sigmaEntry = 0.24, sigmaExit = 0.36, Tmin = 80, Tmax = 140, delta = 0.2 ------- sharpe ratio is 1.58273
+iteration time = 9.625, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 2, sigmaEntry = 0.28, sigmaExit = 0.32, Tmin = 80, Tmax = 140, delta = 0.2 ------- sharpe ratio is 0.800691
+iteration time = 9.609, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 2, sigmaEntry = 0.28, sigmaExit = 0.36, Tmin = 80, Tmax = 140, delta = 0.2 ------- sharpe ratio is 0.95309
+iteration time = 9.297, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 2, sigmaEntry = 0.3, sigmaExit = 0.5, Tmin = 80, Tmax = 140, delta = 0.2 ------- sharpe ratio is -1.57296
+iteration time = 8.094, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 2, sigmaEntry = 0.3, sigmaExit = 0.6, Tmin = 80, Tmax = 140, delta = 0.2 ------- sharpe ratio is -1.33671
+iteration time = 8.031, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 2, sigmaEntry = 0.4, sigmaExit = 0.5, Tmin = 80, Tmax = 140, delta = 0.2 ------- sharpe ratio is -1.45668
+iteration time = 7.656, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 2, sigmaEntry = 0.4, sigmaExit = 0.6, Tmin = 80, Tmax = 140, delta = 0.2 ------- sharpe ratio is -1.2281
+iteration time = 7.783, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 20, sigmaEntry = 0.24, sigmaExit = 0.32, Tmin = 40, Tmax = 100, delta = 0.1 ------- sharpe ratio is -0.376806
+iteration time = 6.813, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 20, sigmaEntry = 0.24, sigmaExit = 0.36, Tmin = 40, Tmax = 100, delta = 0.1 ------- sharpe ratio is -1.14067
+iteration time = 7.031, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 20, sigmaEntry = 0.28, sigmaExit = 0.32, Tmin = 40, Tmax = 100, delta = 0.1 ------- sharpe ratio is 0.2529
+iteration time = 6.922, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 20, sigmaEntry = 0.28, sigmaExit = 0.36, Tmin = 40, Tmax = 100, delta = 0.1 ------- sharpe ratio is -0.649232
+iteration time = 7.047, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 20, sigmaEntry = 0.3, sigmaExit = 0.5, Tmin = 40, Tmax = 100, delta = 0.1 ------- sharpe ratio is 1.09663
+iteration time = 6.859, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 20, sigmaEntry = 0.3, sigmaExit = 0.6, Tmin = 40, Tmax = 100, delta = 0.1 ------- sharpe ratio is 1.07107
+iteration time = 7.108, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 20, sigmaEntry = 0.4, sigmaExit = 0.5, Tmin = 40, Tmax = 100, delta = 0.1 ------- sharpe ratio is 1.11166
+iteration time = 6.844, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 20, sigmaEntry = 0.4, sigmaExit = 0.6, Tmin = 40, Tmax = 100, delta = 0.1 ------- sharpe ratio is 1.04064
+iteration time = 6.984, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 20, sigmaEntry = 0.24, sigmaExit = 0.32, Tmin = 40, Tmax = 100, delta = 0.2 ------- sharpe ratio is -0.628491
+iteration time = 6.859, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 20, sigmaEntry = 0.24, sigmaExit = 0.36, Tmin = 40, Tmax = 100, delta = 0.2 ------- sharpe ratio is -1.10408
+iteration time = 6.953, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 20, sigmaEntry = 0.28, sigmaExit = 0.32, Tmin = 40, Tmax = 100, delta = 0.2 ------- sharpe ratio is 0.416186
+iteration time = 7.06, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 20, sigmaEntry = 0.28, sigmaExit = 0.36, Tmin = 40, Tmax = 100, delta = 0.2 ------- sharpe ratio is -0.299942
+iteration time = 7.151, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 20, sigmaEntry = 0.3, sigmaExit = 0.5, Tmin = 40, Tmax = 100, delta = 0.2 ------- sharpe ratio is 1.14199
+iteration time = 6.922, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 20, sigmaEntry = 0.3, sigmaExit = 0.6, Tmin = 40, Tmax = 100, delta = 0.2 ------- sharpe ratio is 1.17583
+iteration time = 7.031, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 20, sigmaEntry = 0.4, sigmaExit = 0.5, Tmin = 40, Tmax = 100, delta = 0.2 ------- sharpe ratio is 1.17814
+iteration time = 6.86, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 20, sigmaEntry = 0.4, sigmaExit = 0.6, Tmin = 40, Tmax = 100, delta = 0.2 ------- sharpe ratio is 1.17686
+iteration time = 7.093, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 20, sigmaEntry = 0.24, sigmaExit = 0.32, Tmin = 40, Tmax = 140, delta = 0.1 ------- sharpe ratio is 0.0405915
+iteration time = 7.139, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 20, sigmaEntry = 0.24, sigmaExit = 0.36, Tmin = 40, Tmax = 140, delta = 0.1 ------- sharpe ratio is 0.499822
+iteration time = 7.325, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 20, sigmaEntry = 0.28, sigmaExit = 0.32, Tmin = 40, Tmax = 140, delta = 0.1 ------- sharpe ratio is 0.608339
+iteration time = 7.218, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 20, sigmaEntry = 0.28, sigmaExit = 0.36, Tmin = 40, Tmax = 140, delta = 0.1 ------- sharpe ratio is 1.04418
+iteration time = 7.375, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 20, sigmaEntry = 0.3, sigmaExit = 0.5, Tmin = 40, Tmax = 140, delta = 0.1 ------- sharpe ratio is -0.580924
+iteration time = 6.781, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 20, sigmaEntry = 0.3, sigmaExit = 0.6, Tmin = 40, Tmax = 140, delta = 0.1 ------- sharpe ratio is -0.50283
+iteration time = 7.063, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 20, sigmaEntry = 0.4, sigmaExit = 0.5, Tmin = 40, Tmax = 140, delta = 0.1 ------- sharpe ratio is -0.531132
+iteration time = 6.866, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 20, sigmaEntry = 0.4, sigmaExit = 0.6, Tmin = 40, Tmax = 140, delta = 0.1 ------- sharpe ratio is -0.476105
+iteration time = 7.067, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 20, sigmaEntry = 0.24, sigmaExit = 0.32, Tmin = 40, Tmax = 140, delta = 0.2 ------- sharpe ratio is 0.265737
+iteration time = 7.078, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 20, sigmaEntry = 0.24, sigmaExit = 0.36, Tmin = 40, Tmax = 140, delta = 0.2 ------- sharpe ratio is 0.662282
+iteration time = 7.359, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 20, sigmaEntry = 0.28, sigmaExit = 0.32, Tmin = 40, Tmax = 140, delta = 0.2 ------- sharpe ratio is 1.00649
+iteration time = 9.328, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 20, sigmaEntry = 0.28, sigmaExit = 0.36, Tmin = 40, Tmax = 140, delta = 0.2 ------- sharpe ratio is 1.36947
+iteration time = 9.142, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 20, sigmaEntry = 0.3, sigmaExit = 0.5, Tmin = 40, Tmax = 140, delta = 0.2 ------- sharpe ratio is -0.51662
+iteration time = 8.772, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 20, sigmaEntry = 0.3, sigmaExit = 0.6, Tmin = 40, Tmax = 140, delta = 0.2 ------- sharpe ratio is -0.29564
+iteration time = 8.688, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 20, sigmaEntry = 0.4, sigmaExit = 0.5, Tmin = 40, Tmax = 140, delta = 0.2 ------- sharpe ratio is -0.38553
+iteration time = 8.532, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 20, sigmaEntry = 0.4, sigmaExit = 0.6, Tmin = 40, Tmax = 140, delta = 0.2 ------- sharpe ratio is -0.218172
+iteration time = 8.704, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 20, sigmaEntry = 0.24, sigmaExit = 0.32, Tmin = 80, Tmax = 100, delta = 0.1 ------- sharpe ratio is 1.86352
+iteration time = 7.989, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 20, sigmaEntry = 0.24, sigmaExit = 0.36, Tmin = 80, Tmax = 100, delta = 0.1 ------- sharpe ratio is 2.1983
+iteration time = 8.004, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 20, sigmaEntry = 0.28, sigmaExit = 0.32, Tmin = 80, Tmax = 100, delta = 0.1 ------- sharpe ratio is 0.862074
+iteration time = 8.422, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 20, sigmaEntry = 0.28, sigmaExit = 0.36, Tmin = 80, Tmax = 100, delta = 0.1 ------- sharpe ratio is 1.04918
+iteration time = 7.406, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 20, sigmaEntry = 0.3, sigmaExit = 0.5, Tmin = 80, Tmax = 100, delta = 0.1 ------- sharpe ratio is 1.09663
+iteration time = 7.219, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 20, sigmaEntry = 0.3, sigmaExit = 0.6, Tmin = 80, Tmax = 100, delta = 0.1 ------- sharpe ratio is 1.07107
+iteration time = 7.804, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 20, sigmaEntry = 0.4, sigmaExit = 0.5, Tmin = 80, Tmax = 100, delta = 0.1 ------- sharpe ratio is 1.11166
+iteration time = 7.254, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 20, sigmaEntry = 0.4, sigmaExit = 0.6, Tmin = 80, Tmax = 100, delta = 0.1 ------- sharpe ratio is 1.04064
+iteration time = 7.36, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 20, sigmaEntry = 0.24, sigmaExit = 0.32, Tmin = 80, Tmax = 100, delta = 0.2 ------- sharpe ratio is -2.96191
+iteration time = 6.578, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 20, sigmaEntry = 0.24, sigmaExit = 0.36, Tmin = 80, Tmax = 100, delta = 0.2 ------- sharpe ratio is -3.34863
+iteration time = 6.625, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 20, sigmaEntry = 0.28, sigmaExit = 0.32, Tmin = 80, Tmax = 100, delta = 0.2 ------- sharpe ratio is 0.87898
+iteration time = 6.64, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 20, sigmaEntry = 0.28, sigmaExit = 0.36, Tmin = 80, Tmax = 100, delta = 0.2 ------- sharpe ratio is 0.664158
+iteration time = 6.625, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 20, sigmaEntry = 0.3, sigmaExit = 0.5, Tmin = 80, Tmax = 100, delta = 0.2 ------- sharpe ratio is 1.14199
+iteration time = 7.218, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 20, sigmaEntry = 0.3, sigmaExit = 0.6, Tmin = 80, Tmax = 100, delta = 0.2 ------- sharpe ratio is 1.17583
+iteration time = 7.453, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 20, sigmaEntry = 0.4, sigmaExit = 0.5, Tmin = 80, Tmax = 100, delta = 0.2 ------- sharpe ratio is 1.17814
+iteration time = 7.266, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 20, sigmaEntry = 0.4, sigmaExit = 0.6, Tmin = 80, Tmax = 100, delta = 0.2 ------- sharpe ratio is 1.17686
+iteration time = 7.437, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 20, sigmaEntry = 0.24, sigmaExit = 0.32, Tmin = 80, Tmax = 140, delta = 0.1 ------- sharpe ratio is 1.44222
+iteration time = 7.016, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 20, sigmaEntry = 0.24, sigmaExit = 0.36, Tmin = 80, Tmax = 140, delta = 0.1 ------- sharpe ratio is 1.98117
+iteration time = 7.74, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 20, sigmaEntry = 0.28, sigmaExit = 0.32, Tmin = 80, Tmax = 140, delta = 0.1 ------- sharpe ratio is 0.868903
+iteration time = 8.019, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 20, sigmaEntry = 0.28, sigmaExit = 0.36, Tmin = 80, Tmax = 140, delta = 0.1 ------- sharpe ratio is 0.847836
+iteration time = 8.297, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 20, sigmaEntry = 0.3, sigmaExit = 0.5, Tmin = 80, Tmax = 140, delta = 0.1 ------- sharpe ratio is -0.580924
+iteration time = 7.641, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 20, sigmaEntry = 0.3, sigmaExit = 0.6, Tmin = 80, Tmax = 140, delta = 0.1 ------- sharpe ratio is -0.50283
+iteration time = 7.812, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 20, sigmaEntry = 0.4, sigmaExit = 0.5, Tmin = 80, Tmax = 140, delta = 0.1 ------- sharpe ratio is -0.531132
+iteration time = 7.691, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 20, sigmaEntry = 0.4, sigmaExit = 0.6, Tmin = 80, Tmax = 140, delta = 0.1 ------- sharpe ratio is -0.476105
+iteration time = 7.901, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 20, sigmaEntry = 0.24, sigmaExit = 0.32, Tmin = 80, Tmax = 140, delta = 0.2 ------- sharpe ratio is -2.81044
+iteration time = 7.062, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 20, sigmaEntry = 0.24, sigmaExit = 0.36, Tmin = 80, Tmax = 140, delta = 0.2 ------- sharpe ratio is 1.58273
+iteration time = 7.797, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 20, sigmaEntry = 0.28, sigmaExit = 0.32, Tmin = 80, Tmax = 140, delta = 0.2 ------- sharpe ratio is 0.800691
+iteration time = 8.015, max SR is 2.1983
+with use historical = 0, m = 10, w = 5, e = 20, sigmaEntry = 0.28, sigmaExit = 0.36, Tmin = 80, Tmax = 140, delta = 0.2 ------- sharpe ratio is 0.95309
+iteration time = 8.172, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 20, sigmaEntry = 0.3, sigmaExit = 0.5, Tmin = 80, Tmax = 140, delta = 0.2 ------- sharpe ratio is -0.51662
+iteration time = 7.749, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 20, sigmaEntry = 0.3, sigmaExit = 0.6, Tmin = 80, Tmax = 140, delta = 0.2 ------- sharpe ratio is -0.29564
+iteration time = 7.969, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 20, sigmaEntry = 0.4, sigmaExit = 0.5, Tmin = 80, Tmax = 140, delta = 0.2 ------- sharpe ratio is -0.38553
+iteration time = 7.672, max SR is 2.1983
+with use historical = 1, m = 10, w = 5, e = 20, sigmaEntry = 0.4, sigmaExit = 0.6, Tmin = 80, Tmax = 140, delta = 0.2 ------- sharpe ratio is -0.218172
+iteration time = 7.859, max SR is 2.1983
+ -------------out of sample ------------------ 
+with use historical = 0, m = 5, w = 5, e = 2, sigmaEntry = 0.24, sigmaExit = 0.36, Tmin = 80, Tmax = 100, delta = 0.1
+Time elapsed : 1884.78

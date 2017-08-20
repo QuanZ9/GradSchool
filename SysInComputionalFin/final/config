@@ -1,0 +1,43 @@
+#################
+### File path ###
+#################
+Datapath = ./data/
+ResultFile = result.csv
+PerformanceFile = performance.csv
+
+#######################
+### General Setting ###
+#######################
+Stock = SPY #GOOG or SPY
+K = 1
+SearchParams = 0
+
+### In-sample time ###
+StartDateIn = 2011-01-01
+EndDateIn = 2011-8-31
+
+### Out of sample time ###
+StartDateOut = 2011-09-01
+EndDateOut = 2011-12-31
+
+
+########################
+### Signal Generator ###
+########################
+SigmaEntry = 0.24
+SigmaExit = 0.36
+w = 5
+m = 5
+E = 20
+# 0->use implied volatility of ATM option, 1->use historical standard deviation
+VolCalculation = 0
+
+####################################
+### Portfolio Rebalancing Engine ###
+####################################
+deltaT = 0.1
+Tmin = 80
+Tmax = 100
+
+
+
