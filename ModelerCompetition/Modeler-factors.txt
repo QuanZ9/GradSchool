@@ -1,0 +1,14 @@
+1. average retweet time (first time) (Quan)
+2. tweets / retweets(Y)
+3. focused hashtags(number of retweets / number of hashtags) (Quan)
+4(+3). connection between graphs/videos and retweets?(Mike)
+
+5. degree
+6. capitalized words
+7. average words / tweet length
+8. magic word
+
+9. quality of follower: total retweet time of a follower / number of influencers related to a follower
+10. average duration
+
+* 1 retweet = 2 mentions

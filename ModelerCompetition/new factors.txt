@@ -1,0 +1,7 @@
+1. # retweets
+2. # common words with the new tweet
+3. media so far
+4. avg duration
+5. avg retweet time
+6. # active followers
+7. # orig tweetw with hashtags / # hashtags
